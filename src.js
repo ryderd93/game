@@ -93,10 +93,6 @@ function getRNG(min, max) {
 	return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
-function getTurnOrder(participants){
-  var add = getRNG(1, participants.length);
-}
-
 function main(){
   // Unit variables
   var player1 = new Juggernaut("Juggernaut1");
